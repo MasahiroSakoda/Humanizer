@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106841871484F51400C98E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106841861484F51400C98E51 /* UIKit.framework */; };
+		106841891484F51400C98E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106841881484F51400C98E51 /* Foundation.framework */; };
+		1068418B1484F51400C98E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1068418A1484F51400C98E51 /* CoreGraphics.framework */; };
+		106841911484F51400C98E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1068418F1484F51400C98E51 /* InfoPlist.strings */; };
+		106841931484F51400C98E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 106841921484F51400C98E51 /* main.m */; };
+		106841971484F51400C98E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 106841961484F51400C98E51 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		106841821484F51400C98E51 /* Humanizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humanizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106841861484F51400C98E51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		106841881484F51400C98E51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1068418A1484F51400C98E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1068418E1484F51400C98E51 /* Humanizer-Info.plist */ = {isa = PBXFileReference; path = "Humanizer-Info.plist"; sourceTree = "<group>"; };
+		106841901484F51400C98E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		106841921484F51400C98E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		106841941484F51400C98E51 /* Humanizer-Prefix.pch */ = {isa = PBXFileReference; path = "Humanizer-Prefix.pch"; sourceTree = "<group>"; };
+		106841951484F51400C98E51 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		106841961484F51400C98E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1068417F1484F51400C98E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106841871484F51400C98E51 /* UIKit.framework in Frameworks */,
+				106841891484F51400C98E51 /* Foundation.framework in Frameworks */,
+				1068418B1484F51400C98E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106841771484F51400C98E51 = {
+			isa = PBXGroup;
+			children = (
+				1068418C1484F51400C98E51 /* Humanizer */,
+				106841851484F51400C98E51 /* Frameworks */,
+				106841831484F51400C98E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106841831484F51400C98E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106841821484F51400C98E51 /* Humanizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106841851484F51400C98E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106841861484F51400C98E51 /* UIKit.framework */,
+				106841881484F51400C98E51 /* Foundation.framework */,
+				1068418A1484F51400C98E51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1068418C1484F51400C98E51 /* Humanizer */ = {
+			isa = PBXGroup;
+			children = (
+				106841951484F51400C98E51 /* AppDelegate.h */,
+				106841961484F51400C98E51 /* AppDelegate.m */,
+				1068418D1484F51400C98E51 /* Supporting Files */,
+			);
+			path = Humanizer;
+			sourceTree = "<group>";
+		};
+		1068418D1484F51400C98E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1068418E1484F51400C98E51 /* Humanizer-Info.plist */,
+				1068418F1484F51400C98E51 /* InfoPlist.strings */,
+				106841921484F51400C98E51 /* main.m */,
+				106841941484F51400C98E51 /* Humanizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106841811484F51400C98E51 /* Humanizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1068419A1484F51400C98E51 /* Build configuration list for PBXNativeTarget "Humanizer" */;
+			buildPhases = (
+				1068417E1484F51400C98E51 /* Sources */,
+				1068417F1484F51400C98E51 /* Frameworks */,
+				106841801484F51400C98E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Humanizer;
+			productName = Humanizer;
+			productReference = 106841821484F51400C98E51 /* Humanizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106841791484F51400C98E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1068417C1484F51400C98E51 /* Build configuration list for PBXProject "Humanizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 106841771484F51400C98E51;
+			productRefGroup = 106841831484F51400C98E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106841811484F51400C98E51 /* Humanizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106841801484F51400C98E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106841911484F51400C98E51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1068417E1484F51400C98E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106841931484F51400C98E51 /* main.m in Sources */,
+				106841971484F51400C98E51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1068418F1484F51400C98E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				106841901484F51400C98E51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		106841981484F51400C98E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		106841991484F51400C98E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1068419B1484F51400C98E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Humanizer/Humanizer-Prefix.pch";
+				INFOPLIST_FILE = "Humanizer/Humanizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1068419C1484F51400C98E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Humanizer/Humanizer-Prefix.pch";
+				INFOPLIST_FILE = "Humanizer/Humanizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1068417C1484F51400C98E51 /* Build configuration list for PBXProject "Humanizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106841981484F51400C98E51 /* Debug */,
+				106841991484F51400C98E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1068419A1484F51400C98E51 /* Build configuration list for PBXNativeTarget "Humanizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1068419B1484F51400C98E51 /* Debug */,
+				1068419C1484F51400C98E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 106841791484F51400C98E51 /* Project object */;
+}
